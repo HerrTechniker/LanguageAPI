@@ -1,0 +1,17 @@
+de\herrtechniker\mysql\MySQL.class
+de\herrtechniker\bukkit\Bukkit_MySQLConfig.class
+de\herrtechniker\bungee\ChangeLanguage.class
+de\herrtechniker\api\PlayerGetLanguageEvent.class
+de\herrtechniker\api\PlayerTestEvent.class
+de\herrtechniker\api\LanguageAPI.class
+de\herrtechniker\mysql\MySQLConfig.class
+de\herrtechniker\bungee\Bungee_MySQLConfig.class
+de\herrtechniker\exception\LanguageAlreadyExistsException.class
+de\herrtechniker\api\PlayerChangeLanguageEvent.class
+de\herrtechniker\api\PlayerSetLanguageEvent.class
+de\herrtechniker\exception\DefaultLanguageNotExistsException.class
+de\herrtechniker\bukkit\Bukkit_LanguageAPI.class
+de\herrtechniker\exception\IncorrectLanguageNameException.class
+de\herrtechniker\mysql\MySQLManager.class
+de\herrtechniker\exception\LanguageNotExistsException.class
+de\herrtechniker\bungee\Bungee_LanguageAPI.class
