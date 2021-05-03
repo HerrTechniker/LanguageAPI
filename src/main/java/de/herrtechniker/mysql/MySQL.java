@@ -14,7 +14,7 @@ public class MySQL {
     public static void connect() {
         if (!isConnected()) {
             try {
-                connection = DriverManager.getConnection("jdbc:mysql://" + HOST + ":" + PORT + "/" + DATABASE+ "?autoReconnect=true", USER, PASSWORD);
+                connection = DriverManager.getConnection("jdbc:mysql://" + HOST + ":" + PORT + "/" + DATABASE + "?autoReconnect=true", USER, PASSWORD);
                 System.out.println("[LanguageAPI] MySQL connected ");
             } catch (SQLException throwables) {
                 throwables.printStackTrace();
