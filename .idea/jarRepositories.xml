@@ -42,6 +42,16 @@
       <option name="url" value="https://maven.pkg.github.com/herrtechniker/languageapi" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="github" />
+      <option name="name" value="GitHub HerrTechniker Apache Maven Packages" />
+      <option name="url" value="https://maven.pkg.github.com/herrtechniker/coinsapi" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="github" />
+      <option name="name" value="GitHub HerrTechniker Apache Maven Packages" />
+      <option name="url" value="https://maven.pkg.github.com/HerrTechniker/coinsapi" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="cloudnet" />
       <option name="name" value="cloudnet" />
       <option name="url" value="https://cloudnetservice.eu/repositories/" />
