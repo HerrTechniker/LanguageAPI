@@ -8,30 +8,41 @@
     <artifactId>languageapi</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-
+    <!--
+        <distributionManagement>
+            <repository>
+                <id>github</id>
+                <name>GitHub HerrTechniker Apache Maven Packages</name>
+                <url>https://maven.pkg.github.com/herrtechniker/languageapi</url>
+            </repository>
+        </distributionManagement>
+    -->
     <distributionManagement>
+        <snapshotRepository>
+            <id>nexusdeploymentrepo</id>
+            <url>http://109.71.253.59:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
         <repository>
-            <id>github</id>
-            <name>GitHub HerrTechniker Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/herrtechniker/languageapi</url>
+            <id>nexusdeploymentrepo</id>
+            <url>http://109.71.253.59:8081/repository/maven-release/</url>
         </repository>
     </distributionManagement>
 
-    <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-    </properties>
+        <properties>
+            <maven.compiler.source>8</maven.compiler.source>
+            <maven.compiler.target>8</maven.compiler.target>
+        </properties>
 
-    <build>
-        <pluginManagement>
-            <plugins>
+        <build>
+            <pluginManagement>
+                <plugins>
 
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-plugin-plugin</artifactId>
-                    <version>3.6.0</version>
-                    <configuration>
-                        <!-- see http://jira.codehaus.org/browse/MNG-5346 -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-plugin-plugin</artifactId>
+                        <version>3.6.0</version>
+                        <configuration>
+                            <!-- see http://jira.codehaus.org/browse/MNG-5346 -->
                         <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
                     </configuration>
                 </plugin>
